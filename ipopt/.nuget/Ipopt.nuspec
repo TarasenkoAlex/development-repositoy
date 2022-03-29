@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+		<id>Ipopt</id>
+		<version>1.0.0</version>
+		<authors>ООО «НИИ Транснефть». Команда разработки АСППН.</authors>	
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>		
+		<description>.NET оболочка для библиотеки нелинейной оптимизации Ipopt(Interior Point Optimizer).</description>
+		<dependencies>
+			<group targetFramework="net6.0">
+				<dependency id="Cureos.Numerics" version="[1.0.0]"/>
+			</group>			
+		</dependencies>
+    </metadata>
+    <files>
+		<file src=".\Ipopt-3.14.5-win64-msvs2019-md\bin\ipopt.dll" target="lib\net6.0\ipopt.dll" />
+		<file src=".\Ipopt-3.14.5-win64-msvs2019-md\bin\ipoptamplinterface-3.dll" target="lib\net6.0\ipoptamplinterface-3.dll" />
+		<file src=".\Ipopt-3.14.5-win64-msvs2019-md\bin\libifcoremd.dll" target="lib\net6.0\libifcoremd.dll" />
+		<file src=".\Ipopt-3.14.5-win64-msvs2019-md\bin\libiomp5md.dll" target="lib\net6.0\libiomp5md.dll" />
+		<file src=".\Ipopt-3.14.5-win64-msvs2019-md\bin\libmmd.dll" target="lib\net6.0\libmmd.dll" />
+		<file src=".\Ipopt-3.14.5-win64-msvs2019-md\bin\sipopt-3.dll" target="lib\net6.0\sipopt-3.dll" />
+		<file src=".\Ipopt-3.14.5-win64-msvs2019-md\bin\svml_dispmd.dll" target="lib\net6.0\svml_dispmd.dll" />
+    </files>
+</package>

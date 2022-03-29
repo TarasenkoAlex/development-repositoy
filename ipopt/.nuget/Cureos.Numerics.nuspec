@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+		<id>Cureos.Numerics</id>
+		<version>1.0.0</version>
+	    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	    <description>.NET оболочка для библиотеки нелинейной оптимизации Ipopt(Interior Point Optimizer).</description>
+	    <authors>ООО «НИИ Транснефть». Команда разработки АСППН.</authors>		
+	    <dependencies>
+		    <group targetFramework="net6.0" />
+	    </dependencies>
+    </metadata>
+    <files>
+		<file src="Cureos.Numerics\bin\Release\net6.0\Cureos.Numerics.dll" target="lib\net6.0\Cureos.Numerics.dll" />
+		<file src="Cureos.Numerics\bin\Release\net6.0\Cureos.Numerics.pdb" target="lib\net6.0\Cureos.Numerics.pdb" />
+    </files>
+</package>
